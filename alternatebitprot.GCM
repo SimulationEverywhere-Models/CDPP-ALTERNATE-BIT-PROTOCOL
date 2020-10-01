@@ -1,0 +1,156 @@
+# Title:top
+# background:fondo2.gif
+# cant units:3
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:6
+# 	location x:226
+# 	location y:44
+# 	name:sender
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:Sender
+# 	cant ports:5
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:controlIn
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:ackIn
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:3
+# 	Port ID:dataOut
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:4
+# 	Port ID:packetSent
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:5
+# 	Port ID:ackReceived
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:7
+# 	location x:280
+# 	location y:244
+# 	name:receiver
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:Receiver
+# 	cant ports:2
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:in
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:out
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Unit class:gui.model.unit.EditableCoupledModelUnit
+# 	Unique ID:11
+# 	location x:124
+# 	location y:182
+# 	name:Network
+# 	Filename:network.GCM
+# 	export classpath:network.MA
+# 	  class:gui.representation.Image
+# 	  filename:aco.gif
+# cant ports:3
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:3
+# 	Port ID:packetSent
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	location x:422
+# 	location y:72
+# 	  class:gui.representation.Image
+# 	  filename:po.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:4
+# 	Port ID:ackReceived
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	location x:417
+# 	location y:175
+# 	  class:gui.representation.Image
+# 	  filename:po.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:5
+# 	Port ID:controlIn
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	location x:40
+# 	location y:90
+# 	  class:gui.representation.Image
+# 	  filename:pi.gif
+# Cant Links:7
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:8
+# 			start unit Point:5
+# 			end unit Point:6
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:5
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:12
+# 			start unit Point:6
+# 			end unit Point:11
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:13
+# 			start unit Point:11
+# 			end unit Point:7
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:4
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:14
+# 			start unit Point:7
+# 			end unit Point:11
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:15
+# 			start unit Point:11
+# 			end unit Point:6
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:5
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:16
+# 			start unit Point:6
+# 			end unit Point:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:4
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:3
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:17
+# 			start unit Point:6
+# 			end unit Point:4
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:5
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:4
